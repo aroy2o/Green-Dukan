@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { useSwipeable } from "react-swipeable";
-
+import Banner from "/src/assets/Banner.png"; // Adjust the path as necessary
 // Slide data
 const slides = [
   {
-    image: "/src/assets/Banner.png", // assuming image is in public
+    image : Banner, // assuming image is in public
     title: (
       <>
         <span className="text-[#0f7538]">GREEN </span>
@@ -16,7 +16,7 @@ const slides = [
     buttonText: "Coming Soon...",
   },
   {
-    image: "/src/assets/Banner.png",
+    image: Banner,
     title: (
       <>
         <span className="text-[#0f7538]">SUSTAIN </span>
