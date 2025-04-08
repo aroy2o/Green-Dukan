@@ -35,7 +35,7 @@ const HeroCarousel = (): React.ReactElement => {
   const handleSwipe = useSwipeable({
     onSwipedLeft: () => setCurrentSlide((prev) => (prev + 1) % slides.length),
     onSwipedRight: () => setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length),
-    preventDefaultTouchmoveEvent: true,
+    preventScrollOnSwipe: true, // ✅ Correct property
     trackMouse: true,
   });
 

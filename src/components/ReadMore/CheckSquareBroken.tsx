@@ -1,5 +1,5 @@
 import icon from "./icon.svg";
-const CheckSquareBroken = (): JSX.Element => {
+const CheckSquareBroken = (): React.ReactElement => {
   return (
     <div className="relative w-6 h-6">
       {" "}

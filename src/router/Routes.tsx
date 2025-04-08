@@ -27,7 +27,7 @@ const AppRoutes = () => {
     };
   }, []);
 
-  const renderElement = (Component: JSX.Element) => (isOnline ? Component : <OfflineNotice />);
+  const renderElement = (Component: React.ReactElement) => (isOnline ? Component : <OfflineNotice />);
 
   return (
     <Routes>

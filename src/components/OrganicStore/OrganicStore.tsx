@@ -1,5 +1,5 @@
 
-const OrganicStore = (): JSX.Element => {
+const OrganicStore = (): React.ReactElement => {
   return (
     <div className="w-full bg-white py-20 px-4 md:px-0">
       <div className="max-w-[1200px] mx-auto flex flex-col items-center gap-14">

@@ -1,4 +1,4 @@
-const Coming = (): JSX.Element => {
+const Coming = (): React.ReactElement => {
     return (
       <section className="w-full bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto flex flex-col gap-6 text-center">
