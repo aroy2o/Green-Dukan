@@ -1,4 +1,6 @@
-
+import Misson from "/src/assets/Misson1.png";
+import Misson2 from "/src/assets/Mission2.png";
+import Misson3 from "/src/assets/Mission3.png";
 export default function OurMission() {
   // Data for the "What We Offer" section
   const offerings = [
@@ -70,7 +72,7 @@ export default function OurMission() {
             <img
               className="w-[590px] h-[590px] object-cover"
               alt="Sustainable products with plants"
-              src="src/assets/Misson1.png"
+              src={Misson}
             />
             <div className="flex flex-col gap-4 max-w-[556px]">
               <h2 className="text-[24px] font-semibold text-green-800 leading-normal">Our Mission</h2>
@@ -108,7 +110,7 @@ export default function OurMission() {
             <img
               className="w-[590px] h-[590px] object-cover"
               alt="Sustainable products and materials"
-              src="src/assets/Mission2.png"
+              src={Misson2}
             />
           </div>
         </div>
@@ -119,7 +121,7 @@ export default function OurMission() {
             <img
               className="w-[590px] h-[590px] object-cover"
               alt="Hands holding eco-friendly puzzle pieces"
-              src="src/assets/Mission3.png"
+              src={Misson3}
             />
             <div className="flex flex-col gap-4 max-w-[556px]">
               <h2 className="text-[24px] font-semibold text-green-800 leading-normal">Why Choose Green Dukan?</h2>

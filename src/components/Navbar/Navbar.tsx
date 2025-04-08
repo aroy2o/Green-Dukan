@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Search, User, Heart, ShoppingCart, Menu, X } from "lucide-react";
-
+import Logo from "/src/assets/Logo.svg"
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { pathname } = useLocation();
@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
     <nav className="w-full backdrop-blur-md bg-white/30 shadow-sm px-6 md:px-10 lg:px-48 py-4 flex items-center justify-between fixed top-0 left-0 z-50">
       {/* Logo */}
       <Link to="/" className="flex items-center space-x-2">
-        <img src="/src/assets/Logo.svg" alt="Green Dukan" className="h-8 w-8" />
+        <img src={Logo} alt="Green Dukan" className="h-8 w-8" />
         <span className="text-xl font-semibold text-green-800">
           Green <span className="text-yellow-800">Dukan</span>
         </span>

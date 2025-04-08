@@ -1,9 +1,7 @@
 import { motion } from 'framer-motion';
 import { Check } from 'lucide-react'; 
-
+import productImage from "/src/assets/cartoon-concept-recycle 1.jpg"
 const ReadMore = () => {
-  // You can replace this with your actual image path or import
-  const productImage = "/src/assets/cartoon-concept-recycle 1.jpg"; // example image URL
 
   return (
     <section className="py-16 bg-gray-50">

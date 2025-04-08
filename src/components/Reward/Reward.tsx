@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-
+import RL from "/src/assets/RL.png";
+import RR from "/src/assets/RR.png"; 
 export default function Reward() {
   const navigate = useNavigate();
 
@@ -35,7 +36,7 @@ export default function Reward() {
             {/* Claim Rewards Card */}
             <div
               className="rounded-[10px] overflow-hidden h-[300px] bg-cover bg-center flex items-center justify-center p-8"
-              style={{ backgroundImage: `url('src/assets/RL.png')` }}
+              style={{ backgroundImage: `url(${RL})` }}
             >
               <div className="flex flex-col items-center text-center gap-6 max-w-[456px]">
                 <h3 className="text-[24px] font-semibold text-white">
@@ -56,7 +57,7 @@ export default function Reward() {
             {/* Subscribe Card */}
             <div
               className="rounded-[10px] overflow-hidden h-[300px] bg-cover bg-center flex items-center justify-center p-8"
-              style={{ backgroundImage: `url('src/assets/RR.png')` }}
+              style={{ backgroundImage: `url(${RR})` }}
             >
               <div className="flex flex-col items-center text-center gap-6 max-w-[456px]">
                 <h3 className="text-[24px] font-semibold text-white">
