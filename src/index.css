@@ -1,0 +1,32 @@
+@import "tailwindcss";
+.icon-style {
+  @apply w-5 h-5 text-gray-700 hover:text-green-700 cursor-pointer;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.animate-wiggle {
+  animation: wiggle 1.5s infinite ease-in-out;
+}
