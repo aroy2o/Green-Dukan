@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSwipeable } from "react-swipeable";
+import Testimonials from "/src/assets/testimonial .png"
 
 interface TestimonialItem {
   quote: string;
@@ -73,7 +74,7 @@ export const Testimonial: React.FC = () => {
   return (
     <section
       className="w-full bg-cover bg-center py-20 px-4"
-      style={{ backgroundImage: `url('src/assets/testimonial .png')` }}
+      style={{ backgroundImage: `url(${Testimonials})` }}
     >
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-white text-3xl md:text-4xl font-bold mb-12">
