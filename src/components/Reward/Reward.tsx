@@ -22,7 +22,7 @@ export default function Reward() {
   };
 
   const handleClaimClick = () => {
-    navigate("/comingsoon");
+    navigate("/comming-soon");
   };
 
   return (

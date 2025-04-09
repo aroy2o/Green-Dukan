@@ -6,6 +6,7 @@ import {
   Twitter,
 } from "lucide-react";
 import { Link } from "react-router-dom";
+import Logo from "/src/assets/GDLFooter.png"
 
 const socialIcons = [
   { icon: <Linkedin className="w-5 h-5" />, label: "LinkedIn", to: "https://www.linkedin.com" },
@@ -62,7 +63,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center">
               <img
-                src="src/assets/GDLFooter.png"
+                src={Logo}
                 alt="Green Dukan Logo"
                 className="w-90vw h-vh"
               />
