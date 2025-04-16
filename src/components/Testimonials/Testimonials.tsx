@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useSwipeable } from "react-swipeable";
 import Testimonials from "/src/assets/testimonial .png"
-
+import Tanishiamam from "/src/assets/Tanishamam.jpeg"
 interface TestimonialItem {
   quote: string;
   name: string;
@@ -11,23 +11,12 @@ interface TestimonialItem {
 
 const testimonials: TestimonialItem[] = [
   {
-    quote: "Lorem ipsum dolor sit amet consectetur...",
-    name: "Jane Doe",
-    designation: "CEO, EcoWorld",
-    avatar: "https://randomuser.me/api/portraits/women/44.jpg",
+    quote: "I m privileged to be a part of this journey. The initiative taken is a great leap towards sustainability as every small step to save mother earth counts . They have taken a small initiative to make the mingle of nature and technology at its best.  I recommend to use them and contribute in a noble cz . As one says every change starts with us",
+    name: "Tanisha Mukherjee",
+    designation: "Assistant professor, The Assam Royal Global University",
+    avatar: Tanishiamam,
   },
-  {
-    quote: "GreenDukan has transformed how we view sustainability...",
-    name: "John Smith",
-    designation: "Founder, NatureTech",
-    avatar: "https://randomuser.me/api/portraits/men/22.jpg",
-  },
-  {
-    quote: "Highly recommend GreenDukan! It’s not just a platform...",
-    name: "Emily Stone",
-    designation: "Eco Activist",
-    avatar: "https://randomuser.me/api/portraits/women/65.jpg",
-  },
+  
 ];
 
 const TestimonialCard: React.FC<TestimonialItem> = ({

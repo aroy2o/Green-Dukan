@@ -11,8 +11,8 @@ import Logo from "/src/assets/GDLFooter.png"
 const socialIcons = [
   { icon: <Linkedin className="w-5 h-5" />, label: "LinkedIn", to: "https://www.linkedin.com" },
   { icon: <Facebook className="w-5 h-5" />, label: "Facebook", to: "https://www.facebook.com" },
-  { icon: <Twitter className="w-5 h-5" />, label: "Twitter", to: "https://www.twitter.com" },
-  { icon: <Instagram className="w-5 h-5" />, label: "Instagram", to: "https://www.instagram.com" },
+  { icon: <Twitter className="w-5 h-5" />, label: "Twitter", to: "https://www.twitter.com/greendukan_" },
+  { icon: <Instagram className="w-5 h-5" />, label: "Instagram", to: "https://www.instagram.com/greendukan_" },
 ];
 
 const quickLinks = [
